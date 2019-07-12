@@ -1,0 +1,33 @@
+{
+  "name": "myworld",
+  "version": "1.0.0",
+  "description": "个人空间",
+  "author": "hrc",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "express": "^4.16.4",
+    "express-session": "^1.16.2",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "multer": "^1.4.1",
+    "mysql": "^2.17.1",
+    "nedb-session-store": "^1.1.2",
+    "nuxt": "^2.0.0",
+    "sequelize": "^5.8.12"
+  },
+  "devDependencies": {
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.18.9"
+  }
+}

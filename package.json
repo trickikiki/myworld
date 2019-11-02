@@ -24,7 +24,7 @@
     "mysql": "^2.17.1",
     "nedb-session-store": "^1.1.2",
     "nuxt": "^2.0.0",
-    "sequelize": "^5.8.12"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {
     "mysql2": "^1.6.5",
